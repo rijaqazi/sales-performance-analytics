@@ -1,0 +1,24 @@
+{
+  "verification_date": "2026-10-31",
+  "sql_file": "sql/20_sales_analysis.sql",
+  "sql_sha256": "4707ff12bfc91cfa72cdab1ff7e923d0b285cf9c33c7b01164a5c1004d95b721",
+  "results_sha256": "14e876dc410c1997703b9099df9eafaf8f22ec126deaa22c462bdbf96e7afcfe",
+  "sql_execution": "Executed and verified via connected SSMS session",
+  "saved_result_checks": {
+    "Monthly gross equals total": true,
+    "Yearly gross equals total": true,
+    "Country gross equals total": true,
+    "Country net equals total": true,
+    "Known plus anonymous equals gross": true,
+    "Customer bands reconcile counts": true,
+    "Customer bands reconcile value": true,
+    "RFM segments reconcile counts": true,
+    "RFM segments reconcile value": true,
+    "Gross minus cancellations equals net": true,
+    "AOV agrees within displayed precision": true,
+    "Monthly order counts reconcile": true,
+    "Profit and margin are unavailable": true,
+    "SQL reconciliations pass": true,
+    "Top products are ranked descending": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source_sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+  "csv_sha256": "918fca5f44c0c27528dea5fe676c21d0148fdacd44d20c99c7a72542f32a261f",
+  "csv_path": "data/processed/retail_staging.csv",
+  "encoding": "UTF-8 without BOM",
+  "delimiter": ",",
+  "quote": "\"",
+  "line_terminator": "LF",
+  "header_rows": 1,
+  "rows": 1067371,
+  "rows_by_sheet": {
+    "Year 2009-2010": 525461,
+    "Year 2010-2011": 541910
+  },
+  "max_observed_price_decimal_places": 3,
+  "canonical_rows_under_date_partition": 1044848,
+  "excluded_overlap_rows_under_date_partition": 22523,
+  "csv_roundtrip_validation": "passed: 10 fields, row counts, dates, prices, customer ID formatting"
+}

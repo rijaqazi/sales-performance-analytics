@@ -1,0 +1,705 @@
+{
+  "SourceFirstDate": "2009-12-01",
+  "SourceLastDate": "2011-12-09",
+  "KPIs": {
+    "GrossMerchandiseSalesGBP": 19700949.38,
+    "CancellationValueGBP": 719656.34,
+    "NetMerchandiseTransactionValueGBP": 18981293.04,
+    "PurchaseOrders": 39516,
+    "KnownPurchasingCustomers": 5852,
+    "AverageOrderValueGBP": 498.5563,
+    "ProfitGBP": null,
+    "ProfitMarginPct": null,
+    "ProfitStatus": "Unavailable: source has no product costs"
+  },
+  "MonthlyTrends": [
+    {
+      "MonthStart": "2009-12-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 801102.97,
+      "CancellationValueGBP": 19561.28,
+      "NetMerchandiseValueGBP": 781541.69,
+      "PurchaseOrders": 1666,
+      "YoYGrossSalesGrowthPct": null
+    },
+    {
+      "MonthStart": "2010-01-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 613850.81,
+      "CancellationValueGBP": 7465.63,
+      "NetMerchandiseValueGBP": 606385.18,
+      "PurchaseOrders": 1049,
+      "YoYGrossSalesGrowthPct": null
+    },
+    {
+      "MonthStart": "2010-02-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 539744.68,
+      "CancellationValueGBP": 12584.39,
+      "NetMerchandiseValueGBP": 527160.29,
+      "PurchaseOrders": 1189,
+      "YoYGrossSalesGrowthPct": null
+    },
+    {
+      "MonthStart": "2010-03-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 764333.85,
+      "CancellationValueGBP": 9657.2,
+      "NetMerchandiseValueGBP": 754676.65,
+      "PurchaseOrders": 1647,
+      "YoYGrossSalesGrowthPct": null
+    },
+    {
+      "MonthStart": "2010-04-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 648993.82,
+      "CancellationValueGBP": 10025.26,
+      "NetMerchandiseValueGBP": 638968.56,
+      "PurchaseOrders": 1435,
+      "YoYGrossSalesGrowthPct": null
+    },
+    {
+      "MonthStart": "2010-05-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 645645.39,
+      "CancellationValueGBP": 37294.14,
+      "NetMerchandiseValueGBP": 608351.25,
+      "PurchaseOrders": 1484,
+      "YoYGrossSalesGrowthPct": null
+    },
+    {
+      "MonthStart": "2010-06-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 699310.96,
+      "CancellationValueGBP": 26344.01,
+      "NetMerchandiseValueGBP": 672966.95,
+      "PurchaseOrders": 1612,
+      "YoYGrossSalesGrowthPct": null
+    },
+    {
+      "MonthStart": "2010-07-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 634896.99,
+      "CancellationValueGBP": 17132.73,
+      "NetMerchandiseValueGBP": 617764.26,
+      "PurchaseOrders": 1507,
+      "YoYGrossSalesGrowthPct": null
+    },
+    {
+      "MonthStart": "2010-08-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 676060.72,
+      "CancellationValueGBP": 12418.65,
+      "NetMerchandiseValueGBP": 663642.07,
+      "PurchaseOrders": 1402,
+      "YoYGrossSalesGrowthPct": null
+    },
+    {
+      "MonthStart": "2010-09-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 871878.34,
+      "CancellationValueGBP": 27777.97,
+      "NetMerchandiseValueGBP": 844100.37,
+      "PurchaseOrders": 1789,
+      "YoYGrossSalesGrowthPct": null
+    },
+    {
+      "MonthStart": "2010-10-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 1098017.67,
+      "CancellationValueGBP": 25550.02,
+      "NetMerchandiseValueGBP": 1072467.65,
+      "PurchaseOrders": 2244,
+      "YoYGrossSalesGrowthPct": null
+    },
+    {
+      "MonthStart": "2010-11-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 1435680.12,
+      "CancellationValueGBP": 35120.88,
+      "NetMerchandiseValueGBP": 1400559.24,
+      "PurchaseOrders": 2719,
+      "YoYGrossSalesGrowthPct": null
+    },
+    {
+      "MonthStart": "2010-12-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 777931.77,
+      "CancellationValueGBP": 17607.86,
+      "NetMerchandiseValueGBP": 760323.91,
+      "PurchaseOrders": 1550,
+      "YoYGrossSalesGrowthPct": -2.8924
+    },
+    {
+      "MonthStart": "2011-01-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 671933.19,
+      "CancellationValueGBP": 91526.3,
+      "NetMerchandiseValueGBP": 580406.89,
+      "PurchaseOrders": 1081,
+      "YoYGrossSalesGrowthPct": 9.462
+    },
+    {
+      "MonthStart": "2011-02-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 508886.2,
+      "CancellationValueGBP": 8375.87,
+      "NetMerchandiseValueGBP": 500510.33,
+      "PurchaseOrders": 1093,
+      "YoYGrossSalesGrowthPct": -5.7172
+    },
+    {
+      "MonthStart": "2011-03-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 691257.61,
+      "CancellationValueGBP": 10675.3,
+      "NetMerchandiseValueGBP": 680582.31,
+      "PurchaseOrders": 1440,
+      "YoYGrossSalesGrowthPct": -9.5608
+    },
+    {
+      "MonthStart": "2011-04-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 516218.12,
+      "CancellationValueGBP": 33316.91,
+      "NetMerchandiseValueGBP": 482901.21,
+      "PurchaseOrders": 1235,
+      "YoYGrossSalesGrowthPct": -20.4587
+    },
+    {
+      "MonthStart": "2011-05-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 741192.41,
+      "CancellationValueGBP": 8948.23,
+      "NetMerchandiseValueGBP": 732244.18,
+      "PurchaseOrders": 1668,
+      "YoYGrossSalesGrowthPct": 14.7987
+    },
+    {
+      "MonthStart": "2011-06-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 738751.87,
+      "CancellationValueGBP": 13760.84,
+      "NetMerchandiseValueGBP": 724991.03,
+      "PurchaseOrders": 1525,
+      "YoYGrossSalesGrowthPct": 5.64
+    },
+    {
+      "MonthStart": "2011-07-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 689364.41,
+      "CancellationValueGBP": 11409.21,
+      "NetMerchandiseValueGBP": 677955.2,
+      "PurchaseOrders": 1452,
+      "YoYGrossSalesGrowthPct": 8.5789
+    },
+    {
+      "MonthStart": "2011-08-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 725513.5,
+      "CancellationValueGBP": 22929.52,
+      "NetMerchandiseValueGBP": 702583.98,
+      "PurchaseOrders": 1339,
+      "YoYGrossSalesGrowthPct": 7.3148
+    },
+    {
+      "MonthStart": "2011-09-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 1030475.36,
+      "CancellationValueGBP": 17044.68,
+      "NetMerchandiseValueGBP": 1013430.68,
+      "PurchaseOrders": 1818,
+      "YoYGrossSalesGrowthPct": 18.1903
+    },
+    {
+      "MonthStart": "2011-10-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 1106669.82,
+      "CancellationValueGBP": 43992.16,
+      "NetMerchandiseValueGBP": 1062677.66,
+      "PurchaseOrders": 2005,
+      "YoYGrossSalesGrowthPct": 0.788
+    },
+    {
+      "MonthStart": "2011-11-01",
+      "IsCompleteSourceMonth": 1,
+      "GrossSalesGBP": 1457745.53,
+      "CancellationValueGBP": 25010.54,
+      "NetMerchandiseValueGBP": 1432734.99,
+      "PurchaseOrders": 2751,
+      "YoYGrossSalesGrowthPct": 1.5369
+    },
+    {
+      "MonthStart": "2011-12-01",
+      "IsCompleteSourceMonth": 0,
+      "GrossSalesGBP": 615493.27,
+      "CancellationValueGBP": 174126.76,
+      "NetMerchandiseValueGBP": 441366.51,
+      "PurchaseOrders": 816,
+      "YoYGrossSalesGrowthPct": null
+    }
+  ],
+  "YearlyTrends": [
+    {
+      "CalendarYear": 2009,
+      "FirstObservedMonth": "2009-12-01",
+      "LastObservedMonth": "2009-12-01",
+      "GrossSalesGBP": 801102.97,
+      "NetMerchandiseValueGBP": 781541.69,
+      "CompleteSourceMonths": 1,
+      "Coverage": "Partial year"
+    },
+    {
+      "CalendarYear": 2010,
+      "FirstObservedMonth": "2010-01-01",
+      "LastObservedMonth": "2010-12-01",
+      "GrossSalesGBP": 9406345.12,
+      "NetMerchandiseValueGBP": 9167366.38,
+      "CompleteSourceMonths": 12,
+      "Coverage": "Full year"
+    },
+    {
+      "CalendarYear": 2011,
+      "FirstObservedMonth": "2011-01-01",
+      "LastObservedMonth": "2011-12-01",
+      "GrossSalesGBP": 9493501.29,
+      "NetMerchandiseValueGBP": 9032384.97,
+      "CompleteSourceMonths": 11,
+      "Coverage": "Partial year"
+    }
+  ],
+  "TopProducts": [
+    {
+      "StockCode": "22423",
+      "ProductDescription": "REGENCY CAKESTAND 3 TIER",
+      "GrossSalesGBP": 331084.27,
+      "UnitsSold": 26519,
+      "RevenueRank": 1
+    },
+    {
+      "StockCode": "85123A",
+      "ProductDescription": "CREAM HANGING HEART T-LIGHT HOLDER",
+      "GrossSalesGBP": 258065.91,
+      "UnitsSold": 94323,
+      "RevenueRank": 2
+    },
+    {
+      "StockCode": "85099B",
+      "ProductDescription": "JUMBO BAG RED RETROSPOT",
+      "GrossSalesGBP": 180888.03,
+      "UnitsSold": 96931,
+      "RevenueRank": 3
+    },
+    {
+      "StockCode": "23843",
+      "ProductDescription": "PAPER CRAFT , LITTLE BIRDIE",
+      "GrossSalesGBP": 168469.6,
+      "UnitsSold": 80995,
+      "RevenueRank": 4
+    },
+    {
+      "StockCode": "47566",
+      "ProductDescription": "PARTY BUNTING",
+      "GrossSalesGBP": 148395.98,
+      "UnitsSold": 28216,
+      "RevenueRank": 5
+    },
+    {
+      "StockCode": "84879",
+      "ProductDescription": "ASSORTED COLOUR BIRD ORNAMENT",
+      "GrossSalesGBP": 129681.08,
+      "UnitsSold": 80293,
+      "RevenueRank": 6
+    },
+    {
+      "StockCode": "22086",
+      "ProductDescription": "PAPER CHAIN KIT 50'S CHRISTMAS ",
+      "GrossSalesGBP": 117884.19,
+      "UnitsSold": 35126,
+      "RevenueRank": 7
+    },
+    {
+      "StockCode": "23166",
+      "ProductDescription": "MEDIUM CERAMIC TOP STORAGE JAR",
+      "GrossSalesGBP": 81700.92,
+      "UnitsSold": 78033,
+      "RevenueRank": 8
+    },
+    {
+      "StockCode": "79321",
+      "ProductDescription": "CHILLI LIGHTS",
+      "GrossSalesGBP": 80873.23,
+      "UnitsSold": 15918,
+      "RevenueRank": 9
+    },
+    {
+      "StockCode": "22197",
+      "ProductDescription": "POPCORN HOLDER",
+      "GrossSalesGBP": 79552.5,
+      "UnitsSold": 88537,
+      "RevenueRank": 10
+    }
+  ],
+  "CountryPerformance": [
+    {
+      "Country": "United Kingdom",
+      "GrossSalesGBP": 16856325.88,
+      "NetMerchandiseValueGBP": 16221112.82,
+      "PurchaseOrders": 36184
+    },
+    {
+      "Country": "EIRE",
+      "GrossSalesGBP": 623795.85,
+      "NetMerchandiseValueGBP": 603407.1,
+      "PurchaseOrders": 581
+    },
+    {
+      "Country": "Netherlands",
+      "GrossSalesGBP": 549775.06,
+      "NetMerchandiseValueGBP": 546097.08,
+      "PurchaseOrders": 216
+    },
+    {
+      "Country": "Germany",
+      "GrossSalesGBP": 383847.67,
+      "NetMerchandiseValueGBP": 375132.18,
+      "PurchaseOrders": 753
+    },
+    {
+      "Country": "France",
+      "GrossSalesGBP": 311288.38,
+      "NetMerchandiseValueGBP": 293626.34,
+      "PurchaseOrders": 598
+    },
+    {
+      "Country": "Australia",
+      "GrossSalesGBP": 167867.51,
+      "NetMerchandiseValueGBP": 166349.65,
+      "PurchaseOrders": 89
+    },
+    {
+      "Country": "Spain",
+      "GrossSalesGBP": 97818.07,
+      "NetMerchandiseValueGBP": 84862.88,
+      "PurchaseOrders": 144
+    },
+    {
+      "Country": "Switzerland",
+      "GrossSalesGBP": 94046.89,
+      "NetMerchandiseValueGBP": 92940.36,
+      "PurchaseOrders": 85
+    },
+    {
+      "Country": "Sweden",
+      "GrossSalesGBP": 86353.04,
+      "NetMerchandiseValueGBP": 84379.07,
+      "PurchaseOrders": 99
+    },
+    {
+      "Country": "Denmark",
+      "GrossSalesGBP": 67422.69,
+      "NetMerchandiseValueGBP": 63355.59,
+      "PurchaseOrders": 42
+    },
+    {
+      "Country": "Belgium",
+      "GrossSalesGBP": 57012.67,
+      "NetMerchandiseValueGBP": 56618.39,
+      "PurchaseOrders": 143
+    },
+    {
+      "Country": "Portugal",
+      "GrossSalesGBP": 47406.87,
+      "NetMerchandiseValueGBP": 46776.59,
+      "PurchaseOrders": 85
+    },
+    {
+      "Country": "Channel Islands",
+      "GrossSalesGBP": 44040.23,
+      "NetMerchandiseValueGBP": 41851.71,
+      "PurchaseOrders": 54
+    },
+    {
+      "Country": "Japan",
+      "GrossSalesGBP": 43023.91,
+      "NetMerchandiseValueGBP": 39746.77,
+      "PurchaseOrders": 33
+    },
+    {
+      "Country": "Norway",
+      "GrossSalesGBP": 38575.36,
+      "NetMerchandiseValueGBP": 38413.68,
+      "PurchaseOrders": 39
+    },
+    {
+      "Country": "Italy",
+      "GrossSalesGBP": 28951.95,
+      "NetMerchandiseValueGBP": 28241.25,
+      "PurchaseOrders": 59
+    },
+    {
+      "Country": "Finland",
+      "GrossSalesGBP": 25180.1,
+      "NetMerchandiseValueGBP": 25089.66,
+      "PurchaseOrders": 54
+    },
+    {
+      "Country": "Cyprus",
+      "GrossSalesGBP": 24614.44,
+      "NetMerchandiseValueGBP": 24117.74,
+      "PurchaseOrders": 35
+    },
+    {
+      "Country": "Austria",
+      "GrossSalesGBP": 20297.01,
+      "NetMerchandiseValueGBP": 20071.6,
+      "PurchaseOrders": 40
+    },
+    {
+      "Country": "Greece",
+      "GrossSalesGBP": 18711.19,
+      "NetMerchandiseValueGBP": 18660.49,
+      "PurchaseOrders": 18
+    },
+    {
+      "Country": "Hong Kong",
+      "GrossSalesGBP": 13875.25,
+      "NetMerchandiseValueGBP": 13864.3,
+      "PurchaseOrders": 9
+    },
+    {
+      "Country": "Singapore",
+      "GrossSalesGBP": 13158.16,
+      "NetMerchandiseValueGBP": 13158.16,
+      "PurchaseOrders": 8
+    },
+    {
+      "Country": "Israel",
+      "GrossSalesGBP": 11334.66,
+      "NetMerchandiseValueGBP": 11107.22,
+      "PurchaseOrders": 10
+    },
+    {
+      "Country": "Unspecified",
+      "GrossSalesGBP": 10936.01,
+      "NetMerchandiseValueGBP": 10914.01,
+      "PurchaseOrders": 24
+    },
+    {
+      "Country": "United Arab Emirates",
+      "GrossSalesGBP": 10273.23,
+      "NetMerchandiseValueGBP": 9628.15,
+      "PurchaseOrders": 12
+    },
+    {
+      "Country": "Poland",
+      "GrossSalesGBP": 10214.29,
+      "NetMerchandiseValueGBP": 9839.93,
+      "PurchaseOrders": 28
+    },
+    {
+      "Country": "USA",
+      "GrossSalesGBP": 7920.01,
+      "NetMerchandiseValueGBP": 5839.69,
+      "PurchaseOrders": 16
+    },
+    {
+      "Country": "Iceland",
+      "GrossSalesGBP": 4921.53,
+      "NetMerchandiseValueGBP": 4921.53,
+      "PurchaseOrders": 8
+    },
+    {
+      "Country": "Lithuania",
+      "GrossSalesGBP": 4892.68,
+      "NetMerchandiseValueGBP": 4892.68,
+      "PurchaseOrders": 6
+    },
+    {
+      "Country": "Malta",
+      "GrossSalesGBP": 4757.34,
+      "NetMerchandiseValueGBP": 4667.22,
+      "PurchaseOrders": 7
+    },
+    {
+      "Country": "Canada",
+      "GrossSalesGBP": 4332.1,
+      "NetMerchandiseValueGBP": 4332.1,
+      "PurchaseOrders": 7
+    },
+    {
+      "Country": "RSA",
+      "GrossSalesGBP": 3369.03,
+      "NetMerchandiseValueGBP": 3369.03,
+      "PurchaseOrders": 3
+    },
+    {
+      "Country": "Bahrain",
+      "GrossSalesGBP": 3109.79,
+      "NetMerchandiseValueGBP": 2861.55,
+      "PurchaseOrders": 10
+    },
+    {
+      "Country": "Thailand",
+      "GrossSalesGBP": 3070.54,
+      "NetMerchandiseValueGBP": 3070.54,
+      "PurchaseOrders": 2
+    },
+    {
+      "Country": "Lebanon",
+      "GrossSalesGBP": 1905.58,
+      "NetMerchandiseValueGBP": 1905.58,
+      "PurchaseOrders": 2
+    },
+    {
+      "Country": "Brazil",
+      "GrossSalesGBP": 1411.87,
+      "NetMerchandiseValueGBP": 1411.87,
+      "PurchaseOrders": 2
+    },
+    {
+      "Country": "Bermuda",
+      "GrossSalesGBP": 1253.14,
+      "NetMerchandiseValueGBP": 1253.14,
+      "PurchaseOrders": 1
+    },
+    {
+      "Country": "European Community",
+      "GrossSalesGBP": 1159.25,
+      "NetMerchandiseValueGBP": 1150.75,
+      "PurchaseOrders": 3
+    },
+    {
+      "Country": "Korea",
+      "GrossSalesGBP": 1118.51,
+      "NetMerchandiseValueGBP": 949.82,
+      "PurchaseOrders": 2
+    },
+    {
+      "Country": "Czech Republic",
+      "GrossSalesGBP": 786.74,
+      "NetMerchandiseValueGBP": 671.72,
+      "PurchaseOrders": 2
+    },
+    {
+      "Country": "West Indies",
+      "GrossSalesGBP": 536.41,
+      "NetMerchandiseValueGBP": 536.41,
+      "PurchaseOrders": 1
+    },
+    {
+      "Country": "Saudi Arabia",
+      "GrossSalesGBP": 145.92,
+      "NetMerchandiseValueGBP": 131.17,
+      "PurchaseOrders": 1
+    },
+    {
+      "Country": "Nigeria",
+      "GrossSalesGBP": 112.57,
+      "NetMerchandiseValueGBP": -34.48,
+      "PurchaseOrders": 1
+    }
+  ],
+  "CustomerBehavior": {
+    "KnownPurchasingCustomers": 5852,
+    "RepeatPurchasers": 4234,
+    "RepeatPurchaserPct": 72.3513,
+    "KnownCustomerGrossSalesGBP": 17124940.98,
+    "AnonymousGrossSalesGBP": 2576008.4
+  },
+  "PurchaseFrequency": [
+    {
+      "PurchaseBand": "1 order",
+      "Customers": 1618,
+      "GrossPurchasesGBP": 558522.76
+    },
+    {
+      "PurchaseBand": "2–4 orders",
+      "Customers": 2093,
+      "GrossPurchasesGBP": 2277125.23
+    },
+    {
+      "PurchaseBand": "5–9 orders",
+      "Customers": 1180,
+      "GrossPurchasesGBP": 2885596.91
+    },
+    {
+      "PurchaseBand": "10+ orders",
+      "Customers": 961,
+      "GrossPurchasesGBP": 11403696.08
+    }
+  ],
+  "ComparablePeriodYoY": {
+    "CurrentPeriodStart": "2011-01-01",
+    "CurrentPeriodEnd": "2011-11-30",
+    "PriorPeriodStart": "2010-01-01",
+    "PriorPeriodEnd": "2010-11-30",
+    "CurrentGBP": 8878008.02,
+    "PriorGBP": 8628413.35,
+    "GrowthPct": 2.8927
+  },
+  "RFMDefinition": {
+    "WindowStart": "2010-12-10",
+    "WindowEndExclusive": "2011-12-10",
+    "SnapshotDate": "2011-12-10",
+    "IncludedCustomers": 4261,
+    "IncludedGrossPurchasesGBP": 8451542.9,
+    "MinRecencyDays": 1,
+    "MaxRecencyDays": 365
+  },
+  "RFMSegments": [
+    {
+      "Segment": "Champions",
+      "Customers": 857,
+      "GrossPurchasesGBP": 5290620.82,
+      "AverageRecencyDays": 12.05,
+      "AverageOrders": 11.3
+    },
+    {
+      "Segment": "Loyal",
+      "Customers": 706,
+      "GrossPurchasesGBP": 1189969.72,
+      "AverageRecencyDays": 33.42,
+      "AverageOrders": 4.56
+    },
+    {
+      "Segment": "At-risk high value",
+      "Customers": 407,
+      "GrossPurchasesGBP": 858916.39,
+      "AverageRecencyDays": 136.98,
+      "AverageOrders": 3.66
+    },
+    {
+      "Segment": "Dormant",
+      "Customers": 1302,
+      "GrossPurchasesGBP": 443106.79,
+      "AverageRecencyDays": 195.25,
+      "AverageOrders": 1.39
+    },
+    {
+      "Segment": "Recent occasional",
+      "Customers": 499,
+      "GrossPurchasesGBP": 410461.84,
+      "AverageRecencyDays": 16.85,
+      "AverageOrders": 1.52
+    },
+    {
+      "Segment": "Potential",
+      "Customers": 490,
+      "GrossPurchasesGBP": 258467.34,
+      "AverageRecencyDays": 50.41,
+      "AverageOrders": 1.37
+    }
+  ],
+  "Validation": {
+    "OrderValueDifferenceGBP": 0,
+    "MonthlyValueDifferenceGBP": 0,
+    "OrdersSpanningDates": 0,
+    "OrdersSpanningMonths": 0,
+    "RepeatedSaleLineValueGBP": 57092.82,
+    "InvalidRFMScores": 0,
+    "ValidationStatus": "PASS: order, monthly, RFM monetary reconciliations"
+  },
+  "CategoryAnalysisStatus": "Unavailable: source has no merchandise categories. Purpose classification is not a replacement.",
+  "RegionalAnalysisScope": "Country-level only; source has no subnational regions."
+}

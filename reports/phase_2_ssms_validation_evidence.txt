@@ -1,0 +1,65 @@
+				67 button (disabled) Cancel Executing Query Description: Cancel Executing Query (Alt+Break)
+																	7104 edit LineStatus (varchar(23)) Row 0 Value: MerchandiseSale
+																	7105 edit LineStatus (varchar(23)) Row 1 Value: MerchandiseCancellation
+																	7106 edit LineStatus (varchar(23)) Row 2 Value: NonPositivePrice
+																	7107 edit LineStatus (varchar(23)) Row 3 Value: NonMerchandise
+																	7108 edit LineStatus (varchar(23)) Row 4 Value: ReviewCode
+																	7111 edit LinesInGroup (bigint) Row 0 Value: 1015070
+																	7112 edit LinesInGroup (bigint) Row 1 Value: 17973
+																	7113 edit LinesInGroup (bigint) Row 2 Value: 5954
+																	7114 edit LinesInGroup (bigint) Row 3 Value: 4404
+																	7115 edit LinesInGroup (bigint) Row 4 Value: 1447
+																	7118 edit SignedSourceValueGBP (decimal(38,4)) Row 0 Value: 19700949.3800
+																	7119 edit SignedSourceValueGBP (decimal(38,4)) Row 1 Value: -719656.3400
+																	7120 edit SignedSourceValueGBP (decimal(38,4)) Row 2 Value: 0.0000
+																	7121 edit SignedSourceValueGBP (decimal(38,4)) Row 3 Value: 11436.1710
+																	7122 edit SignedSourceValueGBP (decimal(38,4)) Row 4 Value: -82967.0930
+																	7128 edit CanonicalRows (bigint) Row 0 Value: 1044848
+																	7131 edit ClassifiedRows (bigint) Row 0 Value: 1044848
+																	7134 edit ValueDifferenceGBP (decimal(38,4)) Row 0 Value: 0.0000
+																	7140 edit BuildResult (nvarchar(39)) Row 0 Value: PASS: star schema loaded and reconciled
+																	7143 edit FactRows (bigint) Row 0 Value: 1044848
+																	7151 edit CheckName (varchar(14)) Row 0 Value: Staging rows
+																	7152 edit CheckName (varchar(14)) Row 1 Value: Canonical rows
+																	7153 edit CheckName (varchar(14)) Row 2 Value: Fact rows
+																	7156 edit ActualValue (bigint) Row 0 Value: 1067371
+																	7157 edit ActualValue (bigint) Row 1 Value: 1044848
+																	7158 edit ActualValue (bigint) Row 2 Value: 1044848
+																	7161 edit ExpectedValue (bigint) Row 0 Value: 1067371
+																	7162 edit ExpectedValue (bigint) Row 1 Value: 1044848
+																	7163 edit ExpectedValue (bigint) Row 2 Value: 1044848
+																	7169 edit FactValueDifferenceGBP (decimal(38,4)) Row 0 Value: 0.0000
+																	7172 edit MissingSourceLines (bigint) Row 0 Value: 0
+																	7175 edit DisabledOrUntrustedForeignKeys (int) Row 0 Value: 0
+																	7184 edit TableName (varchar(11)) Row 0 Value: DimDate
+																	7185 edit TableName (varchar(11)) Row 1 Value: DimProduct
+																	7186 edit TableName (varchar(11)) Row 2 Value: DimCustomer
+																	7187 edit TableName (varchar(11)) Row 3 Value: DimCountry
+																	7190 edit RowsInTable (bigint) Row 0 Value: 1095
+																	7191 edit RowsInTable (bigint) Row 1 Value: 5304
+																	7192 edit RowsInTable (bigint) Row 2 Value: 5943
+																	7193 edit RowsInTable (bigint) Row 3 Value: 43
+																	7203 edit LineStatus (varchar(30)) Row 0 Value: MerchandiseSale
+																	7204 edit LineStatus (varchar(30)) Row 1 Value: MerchandiseCancellation
+																	7205 edit LineStatus (varchar(30)) Row 2 Value: NonPositivePrice
+																	7206 edit LineStatus (varchar(30)) Row 3 Value: NonMerchandise
+																	7207 edit LineStatus (varchar(30)) Row 4 Value: ReviewCode
+																	7210 edit LinesInGroup (bigint) Row 0 Value: 1015070
+																	7211 edit LinesInGroup (bigint) Row 1 Value: 17973
+																	7212 edit LinesInGroup (bigint) Row 2 Value: 5954
+																	7213 edit LinesInGroup (bigint) Row 3 Value: 4404
+																	7214 edit LinesInGroup (bigint) Row 4 Value: 1447
+																	7217 edit SignedSourceValueGBP (decimal(38,4)) Row 0 Value: 19700949.3800
+																	7218 edit SignedSourceValueGBP (decimal(38,4)) Row 1 Value: -719656.3400
+																	7219 edit SignedSourceValueGBP (decimal(38,4)) Row 2 Value: 0.0000
+																	7220 edit SignedSourceValueGBP (decimal(38,4)) Row 3 Value: 11436.1710
+																	7221 edit SignedSourceValueGBP (decimal(38,4)) Row 4 Value: -82967.0930
+																	7228 edit IsRepeatedLine (bit) Row 0 Value: 0
+																	7229 edit IsRepeatedLine (bit) Row 1 Value: 1
+																	7232 edit LinesInGroup (bigint) Row 0 Value: 1033036
+																	7233 edit LinesInGroup (bigint) Row 1 Value: 11812
+																	7236 edit SignedSourceValueGBP (decimal(38,4)) Row 0 Value: 18855533.6980
+																	7237 edit SignedSourceValueGBP (decimal(38,4)) Row 1 Value: 54228.4200
+																	7243 edit CalendarRows (int) Row 0 Value: 1095
+																	7246 edit ExpectedCalendarRows (int) Row 0 Value: 1095
+										2421 text Query executed successfully.

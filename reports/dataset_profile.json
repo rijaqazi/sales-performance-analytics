@@ -1,0 +1,273 @@
+{
+  "source_file": "online_retail_II.xlsx",
+  "bytes": 45622278,
+  "sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+  "sheets": [
+    {
+      "name": "Year 2009-2010",
+      "rows": 525461,
+      "headers": [
+        "Invoice",
+        "StockCode",
+        "Description",
+        "Quantity",
+        "InvoiceDate",
+        "Price",
+        "Customer ID",
+        "Country"
+      ],
+      "cell_python_types": {
+        "Invoice": {
+          "int": 515252,
+          "str": 10209
+        },
+        "StockCode": {
+          "int": 445349,
+          "str": 80112
+        },
+        "Description": {
+          "str": 522530,
+          "NoneType": 2928,
+          "int": 3
+        },
+        "Quantity": {
+          "int": 525461
+        },
+        "InvoiceDate": {
+          "datetime": 525461
+        },
+        "Price": {
+          "float": 519941,
+          "int": 5520
+        },
+        "Customer ID": {
+          "int": 417534,
+          "NoneType": 107927
+        },
+        "Country": {
+          "str": 525461
+        }
+      },
+      "invoice_date_formats": {
+        "m/d/yy h:mm": 525461
+      },
+      "formula_cells": 0,
+      "extra_exact_duplicate_rows": 6865,
+      "min_date": "2009-12-01 07:45:00",
+      "max_date": "2010-12-09 20:01:00"
+    },
+    {
+      "name": "Year 2010-2011",
+      "rows": 541910,
+      "headers": [
+        "Invoice",
+        "StockCode",
+        "Description",
+        "Quantity",
+        "InvoiceDate",
+        "Price",
+        "Customer ID",
+        "Country"
+      ],
+      "cell_python_types": {
+        "Invoice": {
+          "int": 532619,
+          "str": 9291
+        },
+        "StockCode": {
+          "str": 54874,
+          "int": 487036
+        },
+        "Description": {
+          "str": 540455,
+          "NoneType": 1454,
+          "int": 1
+        },
+        "Quantity": {
+          "int": 541910
+        },
+        "InvoiceDate": {
+          "datetime": 541910
+        },
+        "Price": {
+          "float": 537406,
+          "int": 4504
+        },
+        "Customer ID": {
+          "int": 406830,
+          "NoneType": 135080
+        },
+        "Country": {
+          "str": 541910
+        }
+      },
+      "invoice_date_formats": {
+        "m/d/yy h:mm": 541910
+      },
+      "formula_cells": 0,
+      "extra_exact_duplicate_rows": 5268,
+      "min_date": "2010-12-01 08:26:00",
+      "max_date": "2011-12-09 12:50:00"
+    }
+  ],
+  "total_rows": 1067371,
+  "column_count": 8,
+  "missing": {
+    "Invoice": 0,
+    "StockCode": 0,
+    "Description": 4382,
+    "Quantity": 0,
+    "InvoiceDate": 0,
+    "Price": 0,
+    "Customer ID": 243007,
+    "Country": 0
+  },
+  "whitespace_only": {
+    "Invoice": 0,
+    "StockCode": 0,
+    "Description": 0,
+    "Quantity": 0,
+    "InvoiceDate": 0,
+    "Price": 0,
+    "Customer ID": 0,
+    "Country": 0
+  },
+  "max_text_lengths": {
+    "Invoice": 7,
+    "StockCode": 12,
+    "Description": 35,
+    "Quantity": 6,
+    "InvoiceDate": 19,
+    "Price": 9,
+    "Customer ID": 7,
+    "Country": 20
+  },
+  "numeric": {
+    "Quantity": {
+      "min": -80995.0,
+      "max": 80995.0,
+      "zero_rows": 0,
+      "negative_rows": 22950,
+      "non_numeric_nonblank_rows": 0,
+      "non_integer_rows": 0
+    },
+    "Price": {
+      "min": -53594.36,
+      "max": 38970.0,
+      "zero_rows": 6202,
+      "negative_rows": 5,
+      "non_numeric_nonblank_rows": 0,
+      "non_integer_rows": 1057347
+    }
+  },
+  "invalid_dates": 0,
+  "min_date": "2009-12-01 07:45:00",
+  "max_date": "2011-12-09 12:50:00",
+  "extra_exact_duplicate_rows": 34335,
+  "rows_in_duplicate_groups": 67242,
+  "distinct_duplicate_groups": 32907,
+  "cross_sheet_duplicate_excess": 22202,
+  "distinct_invoice_ids": 53628,
+  "distinct_nonmissing_customers": 5942,
+  "distinct_stock_codes": 5305,
+  "distinct_countries": 43,
+  "c_prefixed_rows": 19494,
+  "c_prefixed_nonnegative_quantity_rows": 1,
+  "negative_quantity_without_c_prefix_rows": 3457,
+  "invoice_ids_with_multiple_customers_including_missing": 0,
+  "invoice_ids_with_multiple_countries": 0,
+  "invoice_ids_with_multiple_timestamps": 83,
+  "stock_codes_with_multiple_nonmissing_descriptions": 1232,
+  "unusual_stock_code_rows_by_code": {
+    "POST": 2122,
+    "DOT": 1446,
+    "M": 1421,
+    "C2": 282,
+    "D": 177,
+    "S": 104,
+    "BANK CHARGES": 102,
+    "ADJUST": 67,
+    "AMAZONFEE": 43,
+    "DCGS0058": 31,
+    "gift_0001_20": 29,
+    "gift_0001_30": 29,
+    "DCGSSGIRL": 25,
+    "DCGSSBOY": 23,
+    "PADS": 19,
+    "gift_0001_10": 16,
+    "CRUK": 16,
+    "DCGS0076": 15,
+    "TEST001": 15,
+    "DCGS0003": 14,
+    "gift_0001_50": 8,
+    "gift_0001_40": 7,
+    "DCGS0069": 6,
+    "B": 6,
+    "DCGS0004": 5,
+    "m": 5,
+    "gift_0001_80": 4,
+    "DCGS0072": 4,
+    "DCGS0066N": 4,
+    "DCGS0068": 3,
+    "gift_0001_70": 3,
+    "DCGS0070": 3,
+    "ADJUST2": 3,
+    "SP1002": 3,
+    "TEST002": 2,
+    "gift_0001_60": 2,
+    "gift_0001_90": 2,
+    "DCGS0062": 2,
+    "DCGS0037": 2,
+    "DCGS0044": 1,
+    "DCGS0006": 1,
+    "DCGS0016": 1,
+    "DCGS0027": 1,
+    "DCGS0036": 1,
+    "DCGS0039": 1,
+    "DCGS0060": 1,
+    "DCGS0056": 1,
+    "DCGS0059": 1,
+    "GIFT": 1,
+    "DCGSLBOY": 1,
+    "DCGS0053": 1,
+    "DCGSLGIRL": 1,
+    "DCGS0075": 1,
+    "DCGS0041": 1,
+    "47503J ": 1,
+    "C3": 1,
+    "DCGS0055": 1,
+    "DCGS0074": 1,
+    "DCGS0057": 1,
+    "DCGS0073": 1,
+    "DCGS0071": 1,
+    "DCGS0066P": 1,
+    "DCGS0067": 1
+  },
+  "monthly_row_counts": {
+    "2009-12": 45228,
+    "2010-01": 31555,
+    "2010-02": 29388,
+    "2010-03": 41511,
+    "2010-04": 34057,
+    "2010-05": 35323,
+    "2010-06": 39983,
+    "2010-07": 33383,
+    "2010-08": 33306,
+    "2010-09": 42091,
+    "2010-10": 59098,
+    "2010-11": 78015,
+    "2010-12": 65004,
+    "2011-01": 35147,
+    "2011-02": 27707,
+    "2011-03": 36748,
+    "2011-04": 29916,
+    "2011-05": 37030,
+    "2011-06": 36874,
+    "2011-07": 39518,
+    "2011-08": 35284,
+    "2011-09": 50226,
+    "2011-10": 60742,
+    "2011-11": 84711,
+    "2011-12": 25526
+  }
+}

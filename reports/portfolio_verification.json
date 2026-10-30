@@ -1,0 +1,18 @@
+{
+  "local_document_links": "PASS",
+  "measured_findings": 7,
+  "actual_dashboard_screenshots": 3,
+  "native_powerbi_project_files": "PRESENT",
+  "business_calculations": {
+    "source_sha256": "14e876dc410c1997703b9099df9eafaf8f22ec126deaa22c462bdbf96e7afcfe",
+    "checks": "PASS: net arithmetic, country gross, known-customer bands, RFM totals, both November peaks",
+    "uk_gross_share_pct": "85.56098264539574183708704093",
+    "frequent_known_customer_share_pct": "16.42173615857826384142173616",
+    "frequent_known_sales_share_pct": "66.59115551591232403768553017",
+    "anonymous_gross_share_pct": "13.07555463603754511042756661",
+    "cancellation_value_ratio_pct": "3.652901827820441818728230243",
+    "champion_window_sales_share_pct": "62.59946713398331090527860895"
+  },
+  "github_publication": "NOT PERFORMED",
+  "scope": "Final documentation checks; native SQL/Power BI execution evidence is in phase 2\u20134 reports."
+}
