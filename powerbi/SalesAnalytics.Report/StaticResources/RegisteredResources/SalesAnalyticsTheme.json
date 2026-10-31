@@ -1,0 +1,31 @@
+{
+  "name": "SalesAnalyticsTheme",
+  "dataColors": [
+    "#087F8C",
+    "#17324D",
+    "#38A99B",
+    "#E8AA42",
+    "#7086A0",
+    "#B85B63"
+  ],
+  "background": "#F3F6FA",
+  "foreground": "#17324D",
+  "tableAccent": "#087F8C",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#17324D"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 11,
+      "color": "#475569"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#17324D"
+    }
+  }
+}

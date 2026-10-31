@@ -1,0 +1,76 @@
+// Sales
+Gross Sales =
+CALCULATE(SUM(FactSalesLine[SignedLineValueGBP]), KEEPFILTERS(FactSalesLine[LineStatus] = "MerchandiseSale"))
+
+// Sales
+Cancellation Value =
+-CALCULATE(SUM(FactSalesLine[SignedLineValueGBP]), KEEPFILTERS(FactSalesLine[LineStatus] = "MerchandiseCancellation"))
+
+// Sales
+Net Merchandise Value =
+[Gross Sales] - [Cancellation Value]
+
+// Orders
+Purchase Orders =
+CALCULATE(DISTINCTCOUNT(FactSalesLine[InvoiceNumber]), KEEPFILTERS(FactSalesLine[LineStatus] = "MerchandiseSale"))
+
+// Orders
+Average Order Value =
+DIVIDE([Gross Sales], [Purchase Orders])
+
+// Customers
+Known Customers =
+CALCULATE(DISTINCTCOUNT(FactSalesLine[CustomerKey]), KEEPFILTERS(FactSalesLine[LineStatus] = "MerchandiseSale"), KEEPFILTERS(DimCustomer[IsUnknown] = FALSE()))
+
+// Customers
+Repeat Purchasers =
+COUNTROWS(FILTER(CALCULATETABLE(VALUES(DimCustomer[CustomerKey]), KEEPFILTERS(DimCustomer[IsUnknown] = FALSE())), [Purchase Orders] >= 2))
+
+// Customers
+Repeat Purchaser Rate =
+DIVIDE([Repeat Purchasers], [Known Customers])
+
+// Customers
+Anonymous Sales =
+CALCULATE([Gross Sales], KEEPFILTERS(DimCustomer[IsUnknown] = TRUE()))
+
+// Customers
+Anonymous Sales Share =
+DIVIDE([Anonymous Sales], [Gross Sales])
+
+// Sales
+Cancellation Value Rate =
+DIVIDE([Cancellation Value], [Gross Sales])
+
+// Data quality
+Source Lines =
+COUNTROWS(FactSalesLine)
+
+// Data quality
+Signed Source Value =
+SUM(FactSalesLine[SignedLineValueGBP])
+
+// Data quality
+Review Lines =
+CALCULATE(COUNTROWS(FactSalesLine), KEEPFILTERS(FactSalesLine[LineStatus] = "ReviewCode"))
+
+// Data quality
+Repeated Sale Value =
+CALCULATE([Gross Sales], KEEPFILTERS(FactSalesLine[IsRepeatedLine] = TRUE()))
+
+// Ranking
+Top 10 Product Sales =
+VAR TopProducts = TOPN(10, ALLSELECTED(DimProduct), [Gross Sales], DESC, DimProduct[StockCode], ASC) RETURN IF(CONTAINS(TopProducts, DimProduct[ProductKey], SELECTEDVALUE(DimProduct[ProductKey])), [Gross Sales])
+
+// Ranking
+Top 10 Country Sales =
+VAR TopCountries = TOPN(10, ALLSELECTED(DimCountry), [Gross Sales], DESC, DimCountry[Country], ASC) RETURN IF(CONTAINS(TopCountries, DimCountry[CountryKey], SELECTEDVALUE(DimCountry[CountryKey])), [Gross Sales])
+
+// Time intelligence
+Comparable YoY Growth =
+VAR CurrentDates = CALCULATETABLE(VALUES(DimDate[CalendarDate]), KEEPFILTERS(DimDate[IsCompleteSourceMonth] = TRUE()))
+VAR MatchedDates = FILTER(CurrentDates, VAR PriorDate = EDATE(DimDate[CalendarDate], -12) RETURN CALCULATE(COUNTROWS(DimDate), REMOVEFILTERS(DimDate), DimDate[CalendarDate] = PriorDate, DimDate[IsCompleteSourceMonth] = TRUE()) > 0)
+VAR PriorDates = SELECTCOLUMNS(MatchedDates, "PriorDate", EDATE(DimDate[CalendarDate], -12))
+VAR CurrentValue = CALCULATE([Gross Sales], REMOVEFILTERS(DimDate), TREATAS(MatchedDates, DimDate[CalendarDate]))
+VAR PriorValue = CALCULATE([Gross Sales], REMOVEFILTERS(DimDate), TREATAS(PriorDates, DimDate[CalendarDate]))
+RETURN DIVIDE(CurrentValue - PriorValue, PriorValue)

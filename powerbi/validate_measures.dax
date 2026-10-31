@@ -1,0 +1,31 @@
+// Run in Power BI Desktop's DAX Query view after SQL refresh completes.
+// Expected controls come from executed sql/20_sales_analysis.sql, not from DAX.
+// Query context is unfiltered; this does not replace slicer interaction testing.
+EVALUATE
+VAR TopProducts =
+    FILTER(
+        SUMMARIZECOLUMNS(DimProduct[ProductLabel], "VisibleSales", [Top 10 Product Sales]),
+        NOT ISBLANK([VisibleSales])
+    )
+VAR Checks =
+    UNION(
+        ROW("Check", "Gross merchandise sales", "Expected", 19700949.38, "Actual", [Gross Sales], "Tolerance", 0.005),
+        ROW("Check", "Cancellation value", "Expected", 719656.34, "Actual", [Cancellation Value], "Tolerance", 0.005),
+        ROW("Check", "Net merchandise value", "Expected", 18981293.04, "Actual", [Net Merchandise Value], "Tolerance", 0.005),
+        ROW("Check", "Purchase orders", "Expected", 39516, "Actual", [Purchase Orders], "Tolerance", 0.0001),
+        ROW("Check", "Average order value", "Expected", 498.5563, "Actual", [Average Order Value], "Tolerance", 0.00005),
+        ROW("Check", "Known customers", "Expected", 5852, "Actual", [Known Customers], "Tolerance", 0.0001),
+        ROW("Check", "Repeat purchasers", "Expected", 4234, "Actual", [Repeat Purchasers], "Tolerance", 0.0001),
+        ROW("Check", "Anonymous sales", "Expected", 2576008.40, "Actual", [Anonymous Sales], "Tolerance", 0.005),
+        ROW("Check", "Fact lines", "Expected", 1044848, "Actual", [Source Lines], "Tolerance", 0.0001),
+        ROW("Check", "Review lines", "Expected", 1447, "Actual", [Review Lines], "Tolerance", 0.0001),
+        ROW("Check", "Repeated eligible sale value", "Expected", 57092.82, "Actual", [Repeated Sale Value], "Tolerance", 0.005),
+        ROW("Check", "Top product gross sales", "Expected", 331084.27, "Actual", CALCULATE([Gross Sales], DimProduct[StockCode] = "22423"), "Tolerance", 0.005),
+        ROW("Check", "2011 complete-month YoY ratio", "Expected", 0.028927, "Actual", CALCULATE([Comparable YoY Growth], DimDate[CalendarYear] = 2011), "Tolerance", 0.0000005),
+        ROW("Check", "Distinct product display labels", "Expected", 5304, "Actual", DISTINCTCOUNT(DimProduct[ProductLabel]), "Tolerance", 0.0001),
+        ROW("Check", "Visible top-ten product rows", "Expected", 10, "Actual", COUNTROWS(TopProducts), "Tolerance", 0.0001),
+        ROW("Check", "Top-ten product sales total", "Expected", 1576595.71, "Actual", SUMX(TopProducts, [VisibleSales]), "Tolerance", 0.005)
+    )
+RETURN
+    ADDCOLUMNS(Checks, "Result", IF(NOT ISBLANK([Actual]) && ABS([Actual] - [Expected]) < [Tolerance], "PASS", "FAIL"))
+ORDER BY [Check]

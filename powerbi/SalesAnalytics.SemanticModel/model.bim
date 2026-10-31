@@ -1,0 +1,1088 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DimDate\",\"DimProduct\",\"DimCustomer\",\"DimCountry\",\"FactSalesLine\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DaxQueryView_Desktop\",\"TMDLView_Desktop\",\"DevMode\"]"
+      }
+    ],
+    "culture": "en-GB",
+    "cultures": [
+      {
+        "name": "en-GB",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "dimcountry.country": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimCountry",
+                    "ConceptualProperty": "Country"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Country": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimdate.calendaryear": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimDate",
+                    "ConceptualProperty": "CalendarYear"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Year": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimdate.yearmonth": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimDate",
+                    "ConceptualProperty": "YearMonth"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Month": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimproduct.productdescription": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimProduct",
+                    "ConceptualProperty": "ProductDescription"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Product": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dimproduct.productlabel": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DimProduct",
+                    "ConceptualProperty": "ProductLabel"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "SKU": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.anonymous_sales": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Anonymous Sales"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Anonymous Sales": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.anonymous_sales_share": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Anonymous Sales Share"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Anonymous Sales Share": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.average_order_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Average Order Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Average Order Value": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.cancellation_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Cancellation Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Cancellation Value": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.cancellation_value_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Cancellation Value Rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Cancellation Value Rate": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.comparable_yoy_growth": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Comparable YoY Growth"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Comparable YoY Growth": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.gross_sales": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Gross Sales"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Gross Sales": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.known_customers": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Known Customers"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Known Customers": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.linestatus": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "LineStatus"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Transaction status": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.net_merchandise_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Net Merchandise Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Net Merchandise Value": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.purchase_orders": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Purchase Orders"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Purchase Orders": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.repeat_purchaser_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Repeat Purchaser Rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Repeat Purchaser Rate": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.repeat_purchasers": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Repeat Purchasers"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Repeat Purchasers": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.repeated_sale_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Repeated Sale Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Repeated Sale Value": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.review_lines": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Review Lines"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Review Lines": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.signed_source_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Signed Source Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Signed value (GBP)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.source_lines": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Source Lines"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Source Lines": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.top_10_country_sales": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Top 10 Country Sales"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Top 10 Country Sales": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "factsalesline.top_10_product_sales": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FactSalesLine",
+                    "ConceptualProperty": "Top 10 Product Sales"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Top 10 Product Sales": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "Fact_DimDate",
+        "fromColumn": "DateKey",
+        "fromTable": "FactSalesLine",
+        "toColumn": "DateKey",
+        "toTable": "DimDate"
+      },
+      {
+        "name": "Fact_DimProduct",
+        "fromColumn": "ProductKey",
+        "fromTable": "FactSalesLine",
+        "toColumn": "ProductKey",
+        "toTable": "DimProduct"
+      },
+      {
+        "name": "Fact_DimCustomer",
+        "fromColumn": "CustomerKey",
+        "fromTable": "FactSalesLine",
+        "toColumn": "CustomerKey",
+        "toTable": "DimCustomer"
+      },
+      {
+        "name": "Fact_DimCountry",
+        "fromColumn": "CountryKey",
+        "fromTable": "FactSalesLine",
+        "toColumn": "CountryKey",
+        "toTable": "DimCountry"
+      }
+    ],
+    "sourceQueryCulture": "en-GB",
+    "tables": [
+      {
+        "name": "DimDate",
+        "columns": [
+          {
+            "name": "DateKey",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "2b7a2493-8a3e-4294-830f-71057dcd55a0",
+            "sourceColumn": "DateKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CalendarDate",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd MMM yyyy",
+            "isKey": true,
+            "lineageTag": "b4e42cc2-4144-48c5-85c8-b3228a72eef9",
+            "sourceColumn": "CalendarDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CalendarYear",
+            "dataType": "int64",
+            "lineageTag": "bffe24ae-4fdf-4f75-a2d4-76abfc4f63db",
+            "sourceColumn": "CalendarYear",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthNumber",
+            "dataType": "int64",
+            "lineageTag": "81e62f49-9306-4877-a4da-cb55b8833201",
+            "sourceColumn": "MonthNumber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "YearMonth",
+            "dataType": "string",
+            "lineageTag": "4080a154-33ad-4622-8ca5-0198ec160872",
+            "sourceColumn": "YearMonth",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthStart",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd MMM yyyy",
+            "lineageTag": "e7419109-96aa-4b94-99b5-cf3dece326c0",
+            "sourceColumn": "MonthStart",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IsCompleteSourceMonth",
+            "dataType": "boolean",
+            "lineageTag": "b9c8fb40-35d7-481b-81e1-16fc05048b38",
+            "sourceColumn": "IsCompleteSourceMonth",
+            "summarizeBy": "none"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "f2486d63-885d-4645-9c56-ec591ad74a45",
+        "partitions": [
+          {
+            "name": "DimDate",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"TELESTE\\RIJA_101\", \"SalesAnalyticsDB\"),",
+                "    Data = Source{[Schema=\"dbo\",Item=\"DimDate\"]}[Data]",
+                "in",
+                "    Data"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimProduct",
+        "columns": [
+          {
+            "name": "ProductKey",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "41ca686b-5c37-4aac-8d53-6bb55e93af3b",
+            "sourceColumn": "ProductKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "StockCode",
+            "dataType": "string",
+            "lineageTag": "c4dba6f3-c325-4e48-9c39-2a18b6f69ed0",
+            "sourceColumn": "StockCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ProductDescription",
+            "dataType": "string",
+            "lineageTag": "be980e14-6ebc-4e09-a246-f0d45ee95af8",
+            "sourceColumn": "ProductDescription",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ProductLabel",
+            "dataType": "string",
+            "lineageTag": "de2e4949-c5b5-4f20-8211-376fc4328ff5",
+            "sourceColumn": "ProductLabel",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "727d2fa2-1156-4803-aa34-e255ce869483",
+        "partitions": [
+          {
+            "name": "DimProduct",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"TELESTE\\RIJA_101\", \"SalesAnalyticsDB\"),",
+                "    Data = Source{[Schema=\"dbo\",Item=\"DimProduct\"]}[Data],",
+                "    Keyed = Table.AddColumn(Data, \"FoldedCode\", each Text.Upper([StockCode], \"en-US\"), type text),",
+                "    Counts = Table.Group(Keyed, {\"FoldedCode\"}, {{\"VariantCount\", each Table.RowCount(_), Int64.Type}}),",
+                "    Joined = Table.NestedJoin(Keyed, {\"FoldedCode\"}, Counts, {\"FoldedCode\"}, \"Counts\", JoinKind.LeftOuter),",
+                "    Expanded = Table.ExpandTableColumn(Joined, \"Counts\", {\"VariantCount\"}),",
+                "    Labeled = Table.AddColumn(Expanded, \"ProductLabel\", each if [VariantCount] > 1 then [StockCode] & \" [variant \" & Text.From([ProductKey]) & \"]\" else [StockCode], type text),",
+                "    Result = Table.RemoveColumns(Labeled, {\"FoldedCode\", \"VariantCount\"})",
+                "in",
+                "    Result"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimCustomer",
+        "columns": [
+          {
+            "name": "CustomerKey",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "94099ac8-a782-476d-bd3f-bbe1ff5b9fe2",
+            "sourceColumn": "CustomerKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CustomerID",
+            "dataType": "string",
+            "lineageTag": "3d46cb78-6101-49e1-aa2c-1b6059de5621",
+            "sourceColumn": "CustomerID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IsUnknown",
+            "dataType": "boolean",
+            "lineageTag": "cf23c484-ebbf-4fc1-8d6d-2f0d25595a25",
+            "sourceColumn": "IsUnknown",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "828c4e86-87ec-4ab6-9019-56f3d382b6e5",
+        "partitions": [
+          {
+            "name": "DimCustomer",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"TELESTE\\RIJA_101\", \"SalesAnalyticsDB\"),",
+                "    Data = Source{[Schema=\"dbo\",Item=\"DimCustomer\"]}[Data]",
+                "in",
+                "    Data"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimCountry",
+        "columns": [
+          {
+            "name": "CountryKey",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "b38b7ff8-531c-4b07-a80e-572d8c6ce0bc",
+            "sourceColumn": "CountryKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "dataType": "string",
+            "lineageTag": "5ce74ba6-36e1-4787-a39b-31dc146bd5ca",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "15096b52-5293-4ac5-abe0-0cc27fbad554",
+        "partitions": [
+          {
+            "name": "DimCountry",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"TELESTE\\RIJA_101\", \"SalesAnalyticsDB\"),",
+                "    Data = Source{[Schema=\"dbo\",Item=\"DimCountry\"]}[Data]",
+                "in",
+                "    Data"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "FactSalesLine",
+        "columns": [
+          {
+            "name": "SalesLineKey",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "1540f9dd-cad0-49c8-b8cf-aaedecd71a28",
+            "sourceColumn": "SalesLineKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SourceSheet",
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "133539ac-eeeb-4155-9838-e61779de8095",
+            "sourceColumn": "SourceSheet",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SourceRowNumber",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "48f4d914-8afa-41f3-a636-68e471dcc444",
+            "sourceColumn": "SourceRowNumber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DateKey",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "efcd39db-634c-419f-92b2-49f8f5d29c76",
+            "sourceColumn": "DateKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ProductKey",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "20d81e8a-895f-4073-867d-781ddf25b125",
+            "sourceColumn": "ProductKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CustomerKey",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "3d46b168-33e8-4fcd-aecc-141ee64d1398",
+            "sourceColumn": "CustomerKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CountryKey",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "88c1c959-b58e-48c5-a399-d1d0af9e075b",
+            "sourceColumn": "CountryKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "InvoiceNumber",
+            "dataType": "string",
+            "lineageTag": "dfe5fbfd-5869-429d-a65c-7549c82c0a08",
+            "sourceColumn": "InvoiceNumber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "InvoiceDate",
+            "dataType": "dateTime",
+            "formatString": "dd MMM yyyy",
+            "lineageTag": "579d2cd5-5017-4a12-bc18-c014a5c53548",
+            "sourceColumn": "InvoiceDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Quantity",
+            "dataType": "int64",
+            "lineageTag": "010b6ede-b736-4534-80eb-2ee7720fd3f2",
+            "sourceColumn": "Quantity",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "UnitPrice",
+            "dataType": "decimal",
+            "formatString": "£#,0.00;(£#,0.00);£0.00",
+            "lineageTag": "92dcd0b2-105e-4eaa-ab08-ab49eee2bc4f",
+            "sourceColumn": "UnitPrice",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SignedLineValueGBP",
+            "dataType": "decimal",
+            "formatString": "£#,0.00;(£#,0.00);£0.00",
+            "lineageTag": "3ba03074-eb51-424b-96e2-39b2a8e88259",
+            "sourceColumn": "SignedLineValueGBP",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IsCancellation",
+            "dataType": "boolean",
+            "lineageTag": "9161425b-e013-4d92-937e-e3ca9827664b",
+            "sourceColumn": "IsCancellation",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CodeType",
+            "dataType": "string",
+            "lineageTag": "b9b94b91-71f5-4474-8d15-36d9e0d4f69c",
+            "sourceColumn": "CodeType",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ClassificationBasis",
+            "dataType": "string",
+            "lineageTag": "26cc9ce3-2abc-406f-bc21-383ec263b6c5",
+            "sourceColumn": "ClassificationBasis",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "LineStatus",
+            "dataType": "string",
+            "lineageTag": "e808e106-e0ce-4cfb-9bc5-b532118e424e",
+            "sourceColumn": "LineStatus",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IsRepeatedLine",
+            "dataType": "boolean",
+            "lineageTag": "5822b324-64e3-430d-b94d-a6e6fc00e41b",
+            "sourceColumn": "IsRepeatedLine",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "d8fe08d3-2821-4c59-aeb9-51e217ed4d5b",
+        "measures": [
+          {
+            "name": "Gross Sales",
+            "displayFolder": "Sales",
+            "expression": "CALCULATE(SUM(FactSalesLine[SignedLineValueGBP]), KEEPFILTERS(FactSalesLine[LineStatus] = \"MerchandiseSale\"))",
+            "formatString": "£#,0.00;(£#,0.00);£0.00",
+            "lineageTag": "fb052f45-ec51-4857-9c14-f1323b2385a3"
+          },
+          {
+            "name": "Cancellation Value",
+            "displayFolder": "Sales",
+            "expression": "-CALCULATE(SUM(FactSalesLine[SignedLineValueGBP]), KEEPFILTERS(FactSalesLine[LineStatus] = \"MerchandiseCancellation\"))",
+            "formatString": "£#,0.00;(£#,0.00);£0.00",
+            "lineageTag": "c414f58d-e942-4fe4-a886-d2286c494a0d"
+          },
+          {
+            "name": "Net Merchandise Value",
+            "displayFolder": "Sales",
+            "expression": "[Gross Sales] - [Cancellation Value]",
+            "formatString": "£#,0.00;(£#,0.00);£0.00",
+            "lineageTag": "f23ed4fe-6a0e-4bc4-af03-a61f856cced3"
+          },
+          {
+            "name": "Purchase Orders",
+            "displayFolder": "Orders",
+            "expression": "CALCULATE(DISTINCTCOUNT(FactSalesLine[InvoiceNumber]), KEEPFILTERS(FactSalesLine[LineStatus] = \"MerchandiseSale\"))",
+            "formatString": "#,0",
+            "lineageTag": "ba9b987b-1c44-4d6e-86e8-638a648b38c7"
+          },
+          {
+            "name": "Average Order Value",
+            "displayFolder": "Orders",
+            "expression": "DIVIDE([Gross Sales], [Purchase Orders])",
+            "formatString": "£#,0.00;(£#,0.00);£0.00",
+            "lineageTag": "b80844d6-deec-491e-b5f3-098625e8212d"
+          },
+          {
+            "name": "Known Customers",
+            "displayFolder": "Customers",
+            "expression": "CALCULATE(DISTINCTCOUNT(FactSalesLine[CustomerKey]), KEEPFILTERS(FactSalesLine[LineStatus] = \"MerchandiseSale\"), KEEPFILTERS(DimCustomer[IsUnknown] = FALSE()))",
+            "formatString": "#,0",
+            "lineageTag": "c1b52021-1350-4a44-b229-fbd19e5409df"
+          },
+          {
+            "name": "Repeat Purchasers",
+            "displayFolder": "Customers",
+            "expression": "COUNTROWS(FILTER(CALCULATETABLE(VALUES(DimCustomer[CustomerKey]), KEEPFILTERS(DimCustomer[IsUnknown] = FALSE())), [Purchase Orders] >= 2))",
+            "formatString": "#,0",
+            "lineageTag": "3d3f1481-2900-4dc9-982e-4e211001fc8e"
+          },
+          {
+            "name": "Repeat Purchaser Rate",
+            "displayFolder": "Customers",
+            "expression": "DIVIDE([Repeat Purchasers], [Known Customers])",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "7a6f1d45-dd0d-423f-aa18-58b8de35e5e7"
+          },
+          {
+            "name": "Anonymous Sales",
+            "displayFolder": "Customers",
+            "expression": "CALCULATE([Gross Sales], KEEPFILTERS(DimCustomer[IsUnknown] = TRUE()))",
+            "formatString": "£#,0.00;(£#,0.00);£0.00",
+            "lineageTag": "3c11a714-3454-497e-8ea0-638942def03e"
+          },
+          {
+            "name": "Anonymous Sales Share",
+            "displayFolder": "Customers",
+            "expression": "DIVIDE([Anonymous Sales], [Gross Sales])",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "9b4bce1f-88b1-48bf-87ea-cf8c21e23ce5"
+          },
+          {
+            "name": "Cancellation Value Rate",
+            "displayFolder": "Sales",
+            "expression": "DIVIDE([Cancellation Value], [Gross Sales])",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "adb6adae-e596-4a48-b566-ddf9b4e0e98c"
+          },
+          {
+            "name": "Source Lines",
+            "displayFolder": "Data quality",
+            "expression": "COUNTROWS(FactSalesLine)",
+            "formatString": "#,0",
+            "lineageTag": "5d2d8b3d-260b-4e1a-92e9-d39ce00baf3d"
+          },
+          {
+            "name": "Signed Source Value",
+            "displayFolder": "Data quality",
+            "expression": "SUM(FactSalesLine[SignedLineValueGBP])",
+            "formatString": "£#,0.00;(£#,0.00);£0.00",
+            "lineageTag": "287df8ae-d2da-4150-9848-e789cc6addfc"
+          },
+          {
+            "name": "Review Lines",
+            "displayFolder": "Data quality",
+            "expression": "CALCULATE(COUNTROWS(FactSalesLine), KEEPFILTERS(FactSalesLine[LineStatus] = \"ReviewCode\"))",
+            "formatString": "#,0",
+            "lineageTag": "09ce4da4-d74d-445e-a4e4-c80da98a0010"
+          },
+          {
+            "name": "Repeated Sale Value",
+            "displayFolder": "Data quality",
+            "expression": "CALCULATE([Gross Sales], KEEPFILTERS(FactSalesLine[IsRepeatedLine] = TRUE()))",
+            "formatString": "£#,0.00;(£#,0.00);£0.00",
+            "lineageTag": "abfd0711-c938-4573-8531-563a8b024041"
+          },
+          {
+            "name": "Top 10 Product Sales",
+            "displayFolder": "Ranking",
+            "expression": "VAR TopProducts = TOPN(10, ALLSELECTED(DimProduct), [Gross Sales], DESC, DimProduct[StockCode], ASC) RETURN IF(CONTAINS(TopProducts, DimProduct[ProductKey], SELECTEDVALUE(DimProduct[ProductKey])), [Gross Sales])",
+            "formatString": "£#,0.00;(£#,0.00);£0.00",
+            "lineageTag": "47985be9-d164-41d6-aad4-346ac9cebd0f"
+          },
+          {
+            "name": "Top 10 Country Sales",
+            "displayFolder": "Ranking",
+            "expression": "VAR TopCountries = TOPN(10, ALLSELECTED(DimCountry), [Gross Sales], DESC, DimCountry[Country], ASC) RETURN IF(CONTAINS(TopCountries, DimCountry[CountryKey], SELECTEDVALUE(DimCountry[CountryKey])), [Gross Sales])",
+            "formatString": "£#,0.00;(£#,0.00);£0.00",
+            "lineageTag": "74560d25-437b-41cb-8676-a7ebf097f75b"
+          },
+          {
+            "name": "Comparable YoY Growth",
+            "displayFolder": "Time intelligence",
+            "expression": [
+              "VAR CurrentDates = CALCULATETABLE(VALUES(DimDate[CalendarDate]), KEEPFILTERS(DimDate[IsCompleteSourceMonth] = TRUE()))",
+              "VAR MatchedDates = FILTER(CurrentDates, VAR PriorDate = EDATE(DimDate[CalendarDate], -12) RETURN CALCULATE(COUNTROWS(DimDate), REMOVEFILTERS(DimDate), DimDate[CalendarDate] = PriorDate, DimDate[IsCompleteSourceMonth] = TRUE()) > 0)",
+              "VAR PriorDates = SELECTCOLUMNS(MatchedDates, \"PriorDate\", EDATE(DimDate[CalendarDate], -12))",
+              "VAR CurrentValue = CALCULATE([Gross Sales], REMOVEFILTERS(DimDate), TREATAS(MatchedDates, DimDate[CalendarDate]))",
+              "VAR PriorValue = CALCULATE([Gross Sales], REMOVEFILTERS(DimDate), TREATAS(PriorDates, DimDate[CalendarDate]))",
+              "RETURN DIVIDE(CurrentValue - PriorValue, PriorValue)"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "a1923fdf-f77a-415d-b382-fc7dc50e7ee9"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "FactSalesLine",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"TELESTE\\RIJA_101\", \"SalesAnalyticsDB\"),",
+                "    Data = Source{[Schema=\"dbo\",Item=\"FactSalesLine\"]}[Data]",
+                "in",
+                "    Data"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
